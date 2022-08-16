@@ -36,3 +36,14 @@ No such film in FilmsDB
 
 
 # make_own_db
+файл получает значение функции `get_user_api_key` и сохраняет в переменной `user_api_key`
+
+Если ключ был введён неверно, то выводит сообщение:
+```
+Invalid api key
+```
+Если ключ введён верно, то выводит сообщение 
+```
+please, wait, this operation may take smth like 15-20 minutes
+```
+и загружает фильмы  
